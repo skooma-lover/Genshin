@@ -1,0 +1,132 @@
+   @font-face {
+    font-family: Rubik-Regular; /* Гарнитура шрифта */
+    src: url(project/www/fonts/Rubik-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face{
+   	font-family: SourceSansPro-Light;
+   	src: url(project/www/fonts/SourceSansPro-Light.ttf);
+   }
+      @font-face{
+   	font-family:tahoma;
+   	src: url(project/www/fonts/tahoma.ttf);
+   }
+
+
+body {
+background-image: url(/project/www/img/background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+color: white;
+background-color: #253c80;
+}
+ul {
+	color: white;
+font-size: 18px;
+background: #4b4a45;
+  list-style: none; /*убираем маркеры списка*/
+  margin-top: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  margin-bottom: 0;
+  margin-right: 5%;
+}
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/
+color: white;
+text-align: center;
+display: inline-block;
+}
+ li {float: right;
+ 	padding:2%;
+ 	margin-top: 20px;
+ 	}
+ .logo {
+ 	float: left;
+ 	margin-left: 5%;
+ 	height: 138px;
+ 	width: 213px;
+ 	position: absolute;
+
+ }
+ header {
+ background: rgba(0, 0, 0, 0.5);
+ color: white;
+ height: 185px;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ font-family: Rubik-Regular;
+ position: sticky;
+   top: 0;
+  min-height: 2em;
+ }
+ .icons {
+
+ 	width: 70px;
+ 	height: 70px;
+ 	display: inline-block;
+ 	background-image: url(/project/www/img/quests.png);
+ 	background-size: cover;
+
+ }
+ h1{text-align: center;
+ 	font-family: SourceSansPro-Light;
+ 	font-size:45px;}
+
+ 	h2{
+ 	font-size:30px;	
+ 	text-align: center;
+ 	}
+ article{
+ 	
+ 	line-height: 1.5;
+ 	font-family:tahoma;
+ 	padding: 30px;
+ 
+ 	text-align: justify;
+ }
+ .content{
+ 	color: white;
+ 	float: right;
+ 	margin-right: 5%;
+ 	width: 60%;
+ 	font-size: 18px;
+ 	/*background-color: rgba(37, 60, 128, 0.7);*/
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	font-family: SourceSansPro-Light;
+ }
+ .news{
+ 	color: white;
+ 	float: left;
+ 	margin-left: 5%;
+ 	width: 28%;
+ 	 	font-size: 14px;
+ 	
+ 	
+ 	/*background-color: rgba(37, 60, 128, 0.7);*/
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	font-family: SourceSansPro-Light;
+
+ 	
+
+ }
+ .img_news {
+width: 100%;
+height: auto;
+float: left;
+ 	padding-top: 5%;
+ 	padding-bottom: 5%;
+ }
+ .screenshots {
+ 	float: right;
+width: 100%;
+height: auto;
+ 	padding-top: 5%;
+ 	padding-bottom: 5%;
+
+ }
+ .global {
+overflow: visible;
+padding-top: 90px;
+ }
+
